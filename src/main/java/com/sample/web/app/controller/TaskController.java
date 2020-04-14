@@ -1,7 +1,7 @@
 package com.sample.web.app.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.sample.web.app.model.Task;
 import com.sample.web.app.service.TaskService;
 
-@RestController
+@Controller
 @CrossOrigin(origins = {"http://localhost:8080", "http://bpvog76086dns1.eastus2.cloudapp.azure.com:8080", "http://172.18.0.1:8080"})
 public class TaskController {
 
