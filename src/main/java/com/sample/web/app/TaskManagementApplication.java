@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableAutoConfiguration
 @EnableWebMvc
 @Configuration
-@ComponentScan
+@ComponentScan(basePackages={"com.sample.web.app"})
 @EnableTransactionManagement
 public class TaskManagementApplication {
 
