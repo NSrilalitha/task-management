@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.sample.web.app.model.Task;
 import com.sample.web.app.service.TaskService;
 
-@Controller
+@RestController
+@CrossOrigin(origins = {"http://localhost:8080", "http://bpvog76086dns1.eastus2.cloudapp.azure.com:8080", "http://172.18.0.1:8080"})
 public class TaskController {
 
 	// inject service
