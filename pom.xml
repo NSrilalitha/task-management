@@ -12,6 +12,7 @@
 	<artifactId>task-management-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TaskManagementApp</name>
+	<packaging>war</packaging>
 	<description>Sample two tier java application with UI and DB</description>
 
 	<properties>
